@@ -1,0 +1,90 @@
+body {
+  background-color: #dfe2d2;
+}
+
+body .container {
+  position: relative;
+}
+
+body .container .score {
+  margin: 2rem 0;
+}
+
+body .container .score div {
+  font-size: 1.5rem;
+  margin: 1px 0;
+}
+
+body .container .score .player-one,
+body .container .score .player-one-score {
+  color: #f26968;
+}
+
+body .container .score .player-two,
+body .container .score .player-two-score {
+  color: #6cbf84;
+}
+
+body .container .game-board {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+}
+
+body .container .game-board .cells .cell {
+  height: 130px;
+  width: 130px;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 115px;
+  cursor: pointer;
+}
+
+body .container .game-board .cells .cell.player-one {
+  color: #f26968;
+}
+
+body .container .game-board .cells .cell.player-two {
+  color: #6cbf84;
+}
+
+body .container .game-board .cells .cell:nth-child(2) {
+  border-left: solid #255d6e 2px;
+  border-right: solid #255d6e 2px;
+}
+
+body .container .game-board .cells:nth-child(2) .cell {
+  border-top: solid #255d6e 2px;
+  border-bottom: solid #255d6e 2px;
+}
+
+body .container .end-game-screen {
+  display: none;
+  background-color: rgba(50, 51, 57, 0.8);
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+}
+
+body .container .end-game-screen .alert {
+  width: 500px;
+  height: 500px;
+}
+
+body .container .end-game-screen .alert .message {
+  font-size: 3.5rem;
+  color: white;
+}
+
+body .container .end-game-screen .alert .btn-restart {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 80px;
+}
+/*# sourceMappingURL=gameboard.css.map */
