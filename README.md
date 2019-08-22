@@ -10,7 +10,7 @@ The connection to the MySQL database was created using PHP. As the idea was to s
 
 The MySQL database connection is made with PHP. In order to run the program a PHP development environment is required, such as XAMMP, MAMP or AMPPS. Instructions how to set up AMPPS and to run the program can be found below.
 
-####Instructions
+###Instructions
 
 1. Download AMPPS from https://ampps.com/download.
 1. Install.
