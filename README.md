@@ -38,7 +38,7 @@ The MySQL database connection is made with PHP. In order to run the program a PH
     1. Create a new database by clicking 'New' on the left side of the screen.
     1. Enter the database name under 'Create database' and click 'Create'.
     1. Open *config.php* from the project folder and enter the database information.  
-1. To run the program go to localhost/{domain name}/TicTacToe in your browser.
+1. To run the program go to localhost/{domain-name}/TicTacToe in your browser.
 
 After the first turn a table named 'Turns' should be generated in the database and data should be stored after each turn. 
 
